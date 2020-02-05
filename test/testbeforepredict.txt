@@ -1,0 +1,29 @@
+before #1
+before #2
+
+beforeEach #2
+it #4
+beforeEach #2
+it #5
+
+      Describe #1
+before #3
+
+beforeEach #2
+it #1
+afterEach #1
+
+beforeEach #2
+it #2
+afterEach #1
+
+     Describe #2
+before #4
+
+beforeEach #2
+it #3
+afterEach #1
+
+after #2
+
+after #1
