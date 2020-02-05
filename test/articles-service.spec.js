@@ -31,14 +31,14 @@ describe(`Articles service object`, function() {
             .into('blogful_articles')
             .insert(testArticles)
     })
-    
+
     // it(`should run the tests`, () => {
     //     expect(true).to.eql(false)
     // });
 
     describe(`getAllArticles()`, () => {
-        it(`resolves all articles from 'blogful_articles' table`, () => {
-            
+        it(`resolves all articles from 'blogful_articles' table`, (done) => {
+            done()
         })
     })
 });
