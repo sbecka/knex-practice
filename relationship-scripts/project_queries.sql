@@ -32,7 +32,7 @@
     JOIN project p
     ON ep.project_id = p.id
     WHERE d.dept_name = 'Warehouse'
-    AND p.project_name = 'Watch paint dry'; --> 0 rows, no employees from warehouse dept eork on this project
+    AND p.project_name = 'Watch paint dry'; --> 0 rows, no employees from warehouse dept work on this project
 
 --Which projects are the Sales department employees assigned to?
 4. SELECT
@@ -62,7 +62,7 @@
     ON e.id = ep.emp_id
     JOIN project p
     ON ep.project_id = p.id
-    WHERE p.project_name = 'Watch paint dry'; -->Jim Halpert is the only manager of Sales dept workinf on this project.
+    WHERE p.project_name = 'Watch paint dry'; -->Jim Halpert is the only manager of Sales dept working on this project.
 
 OR
 
