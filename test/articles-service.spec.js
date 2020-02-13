@@ -30,9 +30,7 @@ describe(`Articles service object`, function() {
             client: 'pg',
             connection: process.env.TEST_DB_URL
         })
-    })
-
-    
+    });
 
     before(() => db('blogful_articles').truncate())
     
@@ -54,7 +52,6 @@ describe(`Articles service object`, function() {
             done()
             return ArticlesService.getAllArticles(db)
                 .then(actual => {
-                    
                     expect(actual).to.eql(testArticles)
                 })
         });
